@@ -71,5 +71,25 @@
             "efficiency" : -5,
             "img" : ""
         }
+    ],
+    "money": [
+        {
+            "id":1,
+            "title":"Gold",
+            "value" : 100,
+            "img" : ""
+        },
+        {
+            "id":2,
+            "title":"Silver",
+            "value" : 10,
+            "img" : ""
+        },
+        {
+            "id":3,
+            "title":"Copper",
+            "value" : 1,
+            "img" : ""
+        }
     ]
 }
