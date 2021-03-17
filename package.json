@@ -1,0 +1,26 @@
+{
+  "name": "rpg-overview",
+  "version": "1.0.0",
+  "description": "An overview of a rpg team",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/berault_xavier/rpg-overview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/berault_xavier/rpg-overview/issues"
+  },
+  "homepage": "https://gitlab.com/berault_xavier/rpg-overview#readme",
+  "devDependencies": {
+    "webpack": "^5.26.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
