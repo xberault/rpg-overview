@@ -1,7 +1,6 @@
 {
     "player": [
         {
-            "id":1,
             "name":"Xavier",
             "nickName":"Ranblok",
             "class" : "Kinght",
@@ -35,7 +34,6 @@
             "img" : ""
         },
         {
-            "id":2,
             "name":"Rémi",
             "nickName":"Amki",
             "class" : "Shaman",
@@ -81,7 +79,6 @@
             "img" : ""
         },
         {
-            "id":3,
             "name":"Thomas",
             "nickName":"Ixi",
             "class" : "Barbarian",
