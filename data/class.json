@@ -1,0 +1,36 @@
+{
+    "class": [
+        {
+            "id":1,
+            "title":"Knight",
+            "description": "A knight in shining armor, an individual devoted to law and good.",
+            "hp" : 20,
+            "ap" : 20,
+            "img" : ""
+        },
+        {
+            "id":2,
+            "title":"Assassin",
+            "description": "The assassin is a mercenary who accomplishes his task coldly, with a completely professional detachment, but he is also a spy, a bounty hunter and a terrorist.",
+            "hp" : 5,
+            "ap" : 20,
+            "img" : ""
+        },
+        {
+            "id":3,
+            "title":"Barbarian",
+            "description": "A brutal fighter who comes from the frontiers of civilization. Pathfinder unchained offers a revised version that aims to be more balanced for the parties.",
+            "hp" : 15,
+            "ap" : 25,
+            "img" : ""
+        },
+        {
+            "id":4,
+            "title":"Shaman",
+            "description": "Both a nature-worshiping spellcaster, animal lover, and gifted shapeshifter.",
+            "hp" : 10,
+            "ap" : 10,
+            "img" : ""
+        }
+    ]
+}

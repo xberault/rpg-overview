@@ -1,0 +1,107 @@
+{
+    "sword": [
+        {
+            "id":1,
+            "title":"Dagger",
+            "description": "Short sword, looks like a knife. It's for assassin players",
+            "damage" : 10,
+            "weight": 5,
+            "img" : ""
+        },
+        {
+            "id":2,
+            "title":"Short sword",
+            "description": "One hand weapon, can be combine with an other Short sword or a small shield",
+            "damage" : 15,
+            "weight": 10,
+            "img" : ""
+        },
+        {
+            "id":3,
+            "title":"Long sword",
+            "description": "Two hand weapon. It's for knight players",
+            "damage" : 25,
+            "weight": 15,
+            "img" : ""
+        }
+    ],
+    "shield": [
+        {
+            "id":1,
+            "title":"Small shield",
+            "description": "One hand shield, can be combine with a Short sword",
+            "protection" : 15,
+            "weight": 10,
+            "img" : ""
+        },
+        {
+            "id":2,
+            "title":"Large shield",
+            "description": "Two hand shield. It's for knight players",
+            "protection" : 30,
+            "weight": 15,
+            "img" : ""
+        }
+    ],
+    "potion": [
+        {
+            "id":1,
+            "title":"Heal potion",
+            "description": "Instant give 20 hp",
+            "stat": "Heal", 
+            "efficiency" : 20,
+            "weight": 1,
+            "img" : ""
+        },
+        {
+            "id":2,
+            "title":"Shield potion",
+            "description": "Instant give 15 armor points",
+            "stat": "Armor", 
+            "efficiency" : 15,
+            "weight": 1,
+            "img" : ""
+        },
+        {
+            "id":3,
+            "title":"Strength potion",
+            "description": "Instant give 5 attaques points for the next 3 rounds",
+            "stat": "Strength", 
+            "efficiency" : 5,
+            "weight": 1,
+            "img" : ""
+        },
+        {
+            "id":4,
+            "title":"Instant Dommage potion",
+            "description": "Inflicts 5 damage to the player",
+            "stat": "Health", 
+            "efficiency" : -5,
+            "weight": 1,
+            "img" : ""
+        }
+    ],
+    "money": [
+        {
+            "id":1,
+            "title":"Gold",
+            "value" : 100,
+            "weight": 0,
+            "img" : ""
+        },
+        {
+            "id":2,
+            "title":"Silver",
+            "value" : 10,
+            "weight": 0,
+            "img" : ""
+        },
+        {
+            "id":3,
+            "title":"Copper",
+            "value" : 1,
+            "weight": 0,
+            "img" : ""
+        }
+    ]
+}

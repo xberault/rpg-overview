@@ -1,0 +1,118 @@
+{
+    "player": [
+        {
+            "id":1,
+            "name":"Xavier",
+            "nickName":"Ranblok",
+            "class" : "Kinght",
+            "description": "A knight in shining armor, an individual devoted to law and good.",
+            "inventory": [
+                {
+                    "item" : "Gold",
+                    "nb" : 1
+                },
+                {
+                    "item" : "Silver",
+                    "nb" : 10
+                },
+                {
+                    "item" : "Copper",
+                    "nb" : 50
+                },
+                {
+                    "item" : "Long sword",
+                    "nb" : 1
+                },
+                {
+                    "item" : "Large shield",
+                    "nb" : 1
+                }
+            ],
+            "hp" : 0,
+            "ap" : 0,
+            "shield":0,
+            "weight": 40,
+            "img" : ""
+        },
+        {
+            "id":2,
+            "name":"Rémi",
+            "nickName":"Amki",
+            "class" : "Shaman",
+            "description": "A knight in shining armor, an individual devoted to law and good.",
+            "inventory": [
+                {
+                    "item" : "Gold",
+                    "nb" : 1
+                },
+                {
+                    "item" : "Silver",
+                    "nb" : 10
+                },
+                {
+                    "item" : "Copper",
+                    "nb" : 50
+                },
+                {
+                    "item" : "Dagger",
+                    "nb" : 2
+                },
+                {
+                    "item" : "Heal potion",
+                    "nb" : 2
+                },
+                {
+                    "item" : "Shield potion",
+                    "nb" : 2
+                },
+                {
+                    "item" : "Strength potion",
+                    "nb" : 2
+                },
+                {
+                    "item" : "Instant Dommage potion",
+                    "nb" : 2
+                }
+            ],
+            "hp" : 0,
+            "ap" : 0,
+            "shield":0,
+            "weight": 25,
+            "img" : ""
+        },
+        {
+            "id":3,
+            "name":"Thomas",
+            "nickName":"Ixi",
+            "class" : "Barbarian",
+            "description": "A knight in shining armor, an individual devoted to law and good.",
+            "inventory": [
+                {
+                    "item" : "Gold",
+                    "nb" : 1
+                },
+                {
+                    "item" : "Silver",
+                    "nb" : 10
+                },
+                {
+                    "item" : "Copper",
+                    "nb" : 50
+                },
+                {
+                    "item" : "Short sword",
+                    "nb" : 2
+                },
+                {
+                    "item" : "Small shield",
+                    "nb" : 1
+                }
+            ],
+            "hp" : 0,
+            "ap" : 0,
+            "shield":0,
+            "weight": 0,
+            "img" : ""
+        }
+    ]
+}
