@@ -31,4 +31,12 @@ export class HTMLHandler{
       const refresh = '<a class="refreshpage" href=".">refresh page</a>'
       $('.content').html('Oops, something went wrong, make sure you are online.<br>' + refresh);
     }
+
+    static loadPage(path){
+      const response = fetch(page);
+      const resHtml = response.text();
+      return resHtml;
+    }
+
+
   }
