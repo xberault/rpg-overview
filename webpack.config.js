@@ -4,7 +4,7 @@ module.exports = {
     "entry": "./src/index.js",
     "output": {
         "path": __dirname + '/dist',
-        "filename": "bundle.js"
+        "filename": "bundle.js",
     },
     devServer: {
         contentBase: path.join(__dirname, 'dist')
@@ -15,9 +15,9 @@ module.exports = {
                 "test": /\.css$/,
                 "use": [
                     "style-loader",
-                    "css-loader"
+                    "css-loader",
                 ]
             },
         ]
-    }
+    },
 }
