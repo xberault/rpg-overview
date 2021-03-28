@@ -1,9 +1,10 @@
+import {HTMLHandler} from "./htmlhandler";
 
-import { HTMLHandler } from "./htmlhandler";
-export class Character extends HTMLHandler{
+export class Character extends HTMLHandler {
 
-    static goTo(){
+    static goTo() {
         HTMLHandler.leftNav("characters.html");
+        HTMLHandler.setTitle("Characters");
     }
 
 }

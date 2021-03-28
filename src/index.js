@@ -30,7 +30,7 @@ function SPARouter_hash(page) {
             Classes.goTo();
             break;
         default:
-            HTMLHandler.Nav('404.html');
+            HTMLHandler.nav('404.html');
     }
 }
 

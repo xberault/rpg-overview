@@ -31,5 +31,6 @@ export class Classes extends HTMLHandler{
     static goTo(){
         Classes.getAllClasses();
         HTMLHandler.leftNav("classes.html");
+        HTMLHandler.setTitle("Classes");
     }
 }
