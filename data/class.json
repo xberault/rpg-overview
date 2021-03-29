@@ -5,28 +5,28 @@
             "description": "A knight in shining armor, an individual devoted to law and good.",
             "hp" : 20,
             "ap" : 20,
-            "img" : ""
+            "img" : "https://cdn3.iconfinder.com/data/icons/role-playing-game-5/340/rpg_spear_shield_knight_warrior_medieval_fantasy-512.png"
         },
         {
             "title":"Assassin",
             "description": "The assassin is a mercenary who accomplishes his task coldly, with a completely professional detachment, but he is also a spy, a bounty hunter and a terrorist.",
             "hp" : 5,
             "ap" : 20,
-            "img" : ""
+            "img" : "https://cdn2.iconfinder.com/data/icons/rpg-fantasy-game-skill-ui/512/assassin_killer_person_weapon_fantasy_dark_blade-512.png"
         },
         {
             "title":"Barbarian",
             "description": "A brutal fighter who comes from the frontiers of civilization. Pathfinder unchained offers a revised version that aims to be more balanced for the parties.",
             "hp" : 15,
             "ap" : 25,
-            "img" : ""
+            "img" : "https://image.flaticon.com/icons/png/512/3426/3426154.png"
         },
         {
             "title":"Shaman",
             "description": "Both a nature-worshiping spellcaster, animal lover, and gifted shapeshifter.",
             "hp" : 10,
             "ap" : 10,
-            "img" : ""
+            "img" : "https://static.thenounproject.com/png/318103-200.png"
         }
     ]
 }
