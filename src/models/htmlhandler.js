@@ -20,6 +20,11 @@ export class HTMLHandler {
         }).fail(HTMLHandler.failedGet)
     }
 
+    static setLeft(html) {
+        console.log("set left nav called")
+        $('#left').html(html);
+    }
+
     static rightNav(to) {
         console.log("right nav to: " + to)
         $.get(to, function (pageContent) {
@@ -40,8 +45,8 @@ export class HTMLHandler {
     }
 
     static loadPage(path) {
-        const response = fetch(page);
-        const resHtml = response.text();
+        const response = fetch(path);
+        const resHtml = $(response).text();
         return resHtml;
     }
 
