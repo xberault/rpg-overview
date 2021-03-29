@@ -1264,5 +1264,6 @@ section {
 #class-container{
     max-height: 80vh;
     overflow:scroll;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 }
