@@ -44,8 +44,8 @@ export class Classes extends HTMLHandler {
         let res = '<li id="class-' + this.title + '" class="card" style="width: 10rem; display: inline-block">\n' +
             '    <img class="card-img-top" src=\"' + this.img + '\" alt="Class image of ' + this.title + ' + ">\n' +
             '    <div class="card-body">\n' +
-            '        <h5 class="card-title">' + this.title + ' </h5>\n' +
-            '        <p class="card-text">' + this.description + '</p>\n' +
+             '        <h5 class="card-title">' + this.title + ' </h5>\n' +
+            //'        <p class="card-text">' + this.description + '</p>\n' +// on le mettra à droite quand on clique
             '        <a href="#class-' + this.title + ' " class="stretched-link"></a>\n' +
             '    </div>\n' +
             '</li>'
