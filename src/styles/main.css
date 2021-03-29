@@ -1261,3 +1261,8 @@ section {
         padding: 5px 0;
     }
 }
+#class-container{
+    max-height: 80vh;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}

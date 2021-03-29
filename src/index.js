@@ -5,7 +5,7 @@ import './styles/main.css';
 
 
 $(window).on('load hashchange', function (e) {
-    console.log("conneted")
+    console.log("connected")
     try {
         SPARouter_hash(window.location.hash);
     } catch (err) {
