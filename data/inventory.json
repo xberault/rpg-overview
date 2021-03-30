@@ -90,5 +90,79 @@
             "item": "Small shield",
             "nb": 1
           }
+    ],
+    "armor" : [
+        {
+            "player" : "Rémi",
+            "item": "Leather helmet",
+            "nb": 1,
+            "equiped" : true
+        },
+        {
+            "player" : "Rémi",
+            "item": "Leather chestplate",
+            "nb": 1,
+            "equiped" : true
+        },
+        {
+            "player" : "Rémi",
+            "item": "Leather leggings",
+            "nb": 1,
+            "equiped" : true
+        },
+        {
+            "player" : "Rémi",
+            "item": "Leather shoes",
+            "nb": 1,
+            "equiped" : true
+        },
+        {
+            "player" : "Thomas",
+            "item": "Light helmet",
+            "nb": 1,
+            "equiped" : true
+        },
+        {
+            "player" : "Thomas",
+            "item": "Light chestplate",
+            "nb": 1,
+            "equiped" : true
+        },
+        {
+            "player" : "Thomas",
+            "item": "Light leggings",
+            "nb": 1,
+            "equiped" : true
+        },
+        {
+            "player" : "Thomas",
+            "item": "Light shoes",
+            "nb": 1,
+            "equiped" : true
+        },
+        {
+            "player" : "Xavier",
+            "item": "Heavy helmet",
+            "nb": 1,
+            "equiped" : true
+        },
+        {
+            "player" : "Xavier",
+            "item": "Heavy chestplate",
+            "nb": 1,
+            "equiped" : true
+        },
+        {
+            "player" : "Xavier",
+            "item": "Heavy leggings",
+            "nb": 1,
+            "equiped" : true
+        },
+        {
+            "player" : "Xavier",
+            "item": "Heavy shoes",
+            "nb": 1,
+            "equiped" : true
+        }
     ]
 }
