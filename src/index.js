@@ -1,4 +1,6 @@
 import {Character} from "./models/characters.js";
+import {CharacterSheet} from "./models/characterSheet";
+
 import {HTMLHandler} from "./models/htmlhandler.js";
 import {Classes} from "./models/classes.js";
 import './styles/main.css';
@@ -30,9 +32,11 @@ function SPARouter_hash(page) {
         case '#classes':
             Classes.goTo();
             break;
+        case "#addnew":
+            CharacterSheet.goTo()
+            break;
         default:
             HTMLHandler.nav('404.html');
     }
 }
-
 

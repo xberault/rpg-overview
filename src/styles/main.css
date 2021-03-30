@@ -1261,7 +1261,7 @@ section {
         padding: 5px 0;
     }
 }
-#class-container{
+#class-container,  #character-container{
     max-height: 80vh;
     overflow:scroll;
     overflow-x: hidden;
