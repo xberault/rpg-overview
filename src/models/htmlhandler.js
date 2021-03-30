@@ -24,6 +24,7 @@ export class HTMLHandler {
         console.log("set left nav called")
         $('#left').html(html);
     }
+
     static setRight(html) {
         console.log("set right nav called")
         $('#right').html(html);
@@ -55,4 +56,16 @@ export class HTMLHandler {
     }
 
 
+    static async sendRequest(url, method, callback) {
+        const options = {
+            method: method,
+            headers: new Headers({'content-type': 'application/json'}),
+        };
+
+        let response = await fetch(url, options);
+        await response.json().then(callback)
+    }
 }
+
+
+
