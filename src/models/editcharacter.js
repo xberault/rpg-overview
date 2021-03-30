@@ -46,16 +46,17 @@ export class EditCharacter extends HTMLHandler{
         // Creation de tout les forms à remplir pour un Character
         let res = '<h2>You chose to play as <b>'+classe.title+'</b>' +
             '<img style="width: 80px;margin: 20px" src="' + classe.img + '" alt="Class image of ' + classe.title + '">\n' + '</h2>\n' +
-            '<input type="text" id="rname" placeholder="Real Name*">\n' +
-            '<input type="text" id="nname" placeholder="Character\'s Name*">\n' +
-            '<input type="text" id="desc" placeholder="Description">\n' +
-            '<input type="number" id="hp" placeholder="Total health*">\n' +
-            '<input type="number" id="ap" placeholder="Magic power*">\n' +
-            '<input type="number" id="shield" placeholder="Armor points*">\n' +
-            '<input type="number" id="weight" placeholder="Maximum weight (kg)*">\n' +
-            '<input type="url" id="img" placeholder="URL for character\' picture">\n' +
-            '<img id="preview" style="width: 80px;height: 80px;margin: 20px" src="" alt="Image preview" onerror=\'this.src="https://png.pngtree.com/element_our/20190604/ourmid/pngtree-office-preview-file-illustration-image_1468631.jpg"\'>\n' +
-            '<button id="bt-validate" class="btn btn-primary">Validate</button>\n' +
+            '<div class="container"><div class="row input-group" style="margin:10px">' +
+            '<input class="form-control col" type="text" id="rname" placeholder="Real Name*">\n' +
+            '<input class="form-control col" type="text" id="nname" placeholder="Character\'s Name*">\n' +
+            '<input class="form-control col" type="number" id="hp" placeholder="Total health*">\n' +
+            '<input class="form-control col" type="number" id="ap" placeholder="Magic power*">\n' +
+            '<input class="form-control col" type="number" id="shield" placeholder="Armor points*">\n' +
+            '<input class="form-control col" type="number" id="weight" placeholder="Maximum weight*"></div>\n' +
+            '<div class="row input-group" style="margin:10px"><textarea class="col form-control" id="desc" placeholder="Description"></textarea></div>\n' +
+            '<div class="row input-group" style="margin:10px"><input class="col form-control" type="url" id="img" placeholder="URL for character\'s picture">\n' +
+            '<img id="preview" style="width: 80px;height: 80px;margin: 20px" src="" alt="Image preview" onerror=\'this.src="https://png.pngtree.com/element_our/20190604/ourmid/pngtree-office-preview-file-illustration-image_1468631.jpg"\'></div>\n' +
+            '<button id="bt-validate" class="btn btn-primary">Validate</button>\n' + '</div>' +
             '<div id="flash" style="margin :20px"></div>'
         
 
