@@ -1,95 +1,95 @@
 {
-    "sword": [
-        {
-            "title":"Dagger",
-            "description": "Short sword, looks like a knife. It's for assassin players",
-            "damage" : 10,
-            "weight": 5,
-            "img" : ""
-        },
-        {
-            "title":"Short sword",
-            "description": "One hand weapon, can be combine with an other Short sword or a small shield",
-            "damage" : 15,
-            "weight": 10,
-            "img" : ""
-        },
-        {
-            "title":"Long sword",
-            "description": "Two hand weapon. It's for knight players",
-            "damage" : 25,
-            "weight": 15,
-            "img" : ""
-        }
-    ],
-    "shield": [
-        {
-            "title":"Small shield",
-            "description": "One hand shield, can be combine with a Short sword",
-            "protection" : 15,
-            "weight": 10,
-            "img" : ""
-        },
-        {
-            "title":"Large shield",
-            "description": "Two hand shield. It's for knight players",
-            "protection" : 30,
-            "weight": 15,
-            "img" : ""
-        }
-    ],
-    "potion": [
-        {
-            "title":"Heal potion",
-            "description": "Instant give 20 hp",
-            "stat": "Heal", 
-            "efficiency" : 20,
-            "weight": 1,
-            "img" : ""
-        },
-        {
-            "title":"Shield potion",
-            "description": "Instant give 15 armor points",
-            "stat": "Armor", 
-            "efficiency" : 15,
-            "weight": 1,
-            "img" : ""
-        },
-        {
-            "title":"Strength potion",
-            "description": "Instant give 5 attaques points for the next 3 rounds",
-            "stat": "Strength", 
-            "efficiency" : 5,
-            "weight": 1,
-            "img" : ""
-        },
-        {
-            "title":"Instant Dommage potion",
-            "description": "Inflicts 5 damage to the player",
-            "stat": "Health", 
-            "efficiency" : -5,
-            "weight": 1,
-            "img" : ""
-        }
-    ],
-    "money": [
-        {
-            "title":"Gold",
-            "value" : 100,
-            "weight": 0,
-            "img" : ""
-        },
-        {
-            "title":"Silver",
-            "value" : 10,
-            "weight": 0,
-            "img" : ""
-        },
-        {
-            "title":"Copper",
-            "value" : 1,
-            "weight": 0,
-            "img" : ""
-        }
-    ]
+  "sword": [
+    {
+      "title": "Dagger",
+      "description": "Short sword, looks like a knife. It's for assassin players",
+      "damage": 10,
+      "weight": 5,
+      "img": "https://cdn2.iconfinder.com/data/icons/melee-weapon-1/512/dual_daggers-512.png"
+    },
+    {
+      "title": "Short sword",
+      "description": "One hand weapon, can be combine with an other Short sword or a small shield",
+      "damage": 15,
+      "weight": 10,
+      "img": "https://icon-library.com/images/sword-icon-png/sword-icon-png-9.jpg"
+    },
+    {
+      "title": "Long sword",
+      "description": "Two hand weapon. It's for knight players",
+      "damage": 25,
+      "weight": 15,
+      "img": "https://cdn.iconscout.com/icon/premium/png-512-thumb/sword-1724050-1464238.png"
+    }
+  ],
+  "shield": [
+    {
+      "title": "Small shield",
+      "description": "One hand shield, can be combine with a Short sword",
+      "protection": 15,
+      "weight": 10,
+      "img": "https://cdn3.iconfinder.com/data/icons/medieval-2d-rpg-game-items-weapons-armour-helmets-/26/GAME-SVG_4-71-512.png"
+    },
+    {
+      "title": "Large shield",
+      "description": "Two hand shield. It's for knight players",
+      "protection": 30,
+      "weight": 15,
+      "img": "https://cdn3.iconfinder.com/data/icons/medieval-2d-rpg-game-items-weapons-armour-helmets-/26/GAME-SVG_--53-512.png"
+    }
+  ],
+  "potion": [
+    {
+      "title": "Heal potion",
+      "description": "Instant give 20 hp",
+      "stat": "Heal",
+      "efficiency": 20,
+      "weight": 1,
+      "img": "https://rpgmaker.net/media/content/games/4468/screenshots/hp_potion.png"
+    },
+    {
+      "title": "Shield potion",
+      "description": "Instant give 15 armor points",
+      "stat": "Armor",
+      "efficiency": 15,
+      "weight": 1,
+      "img": "https://image.flaticon.com/icons/png/512/1488/1488049.png"
+    },
+    {
+      "title": "Strength potion",
+      "description": "Instant give 5 attaques points for the next 3 rounds",
+      "stat": "Strength",
+      "efficiency": 5,
+      "weight": 1,
+      "img": "https://webstockreview.net/images/potion-bottle-png-2.png"
+    },
+    {
+      "title": "Instant Dommage potion",
+      "description": "Inflicts 5 damage to the player",
+      "stat": "Health",
+      "efficiency": -5,
+      "weight": 1,
+      "img": "https://www.seekpng.com/png/detail/152-1527709_potion-icon.png"
+    }
+  ],
+  "money": [
+    {
+      "title": "Gold",
+      "value": 100,
+      "weight": 0,
+      "img": "https://i.pinimg.com/474x/ab/dc/b8/abdcb87252e04d340ec263a6c4b16b17.jpg"
+    },
+    {
+      "title": "Silver",
+      "value": 10,
+      "weight": 0,
+      "img": "https://d1nhio0ox7pgb.cloudfront.net/_img/v_collection_png/512x512/shadow/currency_dollar.png"
+    },
+    {
+      "title": "Copper",
+      "value": 1,
+      "weight": 0,
+      "img": "https://image.freepik.com/vecteurs-libre/piece-monnaie_53876-25510.jpg"
+    }
+  ]
 }

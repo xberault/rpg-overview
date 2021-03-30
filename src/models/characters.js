@@ -14,6 +14,8 @@ export class Character extends HTMLHandler {
         this.shield = shield;
         this.weight = weight;
         this.img = img;
+        console.log("inventory: " )
+        console.log(inventory)
     }
 
 
@@ -27,7 +29,6 @@ export class Character extends HTMLHandler {
 
     static getAllCharacters() {
         let characters = HTMLHandler.sendRequest("http://localhost:3000/players", "GET", Character.buildCharacters)
-        console.log(characters)
     }
 
     addHtml() {
@@ -43,19 +44,21 @@ export class Character extends HTMLHandler {
         '        </button>\n' +
 
         $("#character-container").append(res)
-        $("#bt-" + this.title).click(function () {
-            Classes.display(that)
+        $("#bt-" + this.name).click(function () {
+            Character.display(that)
         })
     }
 
+    static display(character){
+        // let html = character.getDetails();
+        HTMLHandler.setRight(character.name)
+    }
 
     static buildCharacters(data) {
         let players = data.player;
         $("#left").append("<ul id='character-container' class='overflow'>");
-        for (let p of players) {
-            console.log(p)
+        for (let p of players)
             new Character(p.name, p.nickname, p.class, p.description, p.inventory, p.hp, p.ap, p.shield, p.weight, p.img).addHtml();
-        }
         $("#left").append("</ul>")
 
     }
