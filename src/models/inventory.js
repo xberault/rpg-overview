@@ -26,20 +26,25 @@ export class Inventory {
                 let tmpNamesItems = tmpItems.map(itemToPlayer)
                 let tmpNamesArmor = tmpArmor.map(itemToPlayer)
                 Object.entries(data).forEach(category => {
-                    category.forEach(item => {
-                        if (tmpNamesItems.includes(item[1].title)){
-                            console.log(item[1].title)
-                            player.inventory.items.push(item[1])
+                    category.forEach(items => {
+                        for (let item of items) {
+                            if (typeof item === 'string')
+                                return;
+                            console.log("-" + items.title + "-")
+                            if (tmpNamesItems.includes(item.title))
+                                player.inventory.items.push(item)
+                            else if (tmpNamesArmor.includes(item.title)) {
+                                console.log("armor added:")
+                                player.inventory.armor.push(item)
+                            }
                         }
-                        else if (tmpNamesArmor.includes(item[1]))
-                            player.inventory.armor.push(item[1])
+
                     })
+
                 })
             })
         })
-        console.log(player.inventory)
     }
-
 }
 
 function itemToPlayer(item) {

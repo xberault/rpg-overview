@@ -94,76 +94,76 @@
   ],
   "armors": [
     {
-        "title":"Leather helmet",
-        "protection" : 4,
-        "weight": 2,
-        "img" : ""
+      "title": "Leather helmet",
+      "protection": 4,
+      "weight": 2,
+      "img": "https://cdn3.iconfinder.com/data/icons/medieval-2d-rpg-game-items-weapons-armour-helmets-/26/GAME-SVG_--03-512.png"
     },
     {
-        "title":"Leather chestplate",
-        "protection" : 6,
-        "weight": 3,
-        "img" : ""
+      "title": "Leather chestplate",
+      "protection": 6,
+      "weight": 3,
+      "img": "https://cdn3.iconfinder.com/data/icons/medieval-2d-rpg-game-items-weapons-armour-helmets-/26/GAME-SVG_--56-512.png"
     },
     {
-        "title":"Leather leggings",
-        "protection" : 4,
-        "weight": 2,
-        "img" : ""
+      "title": "Leather leggings",
+      "protection": 4,
+      "weight": 2,
+      "img": "https://static.wikia.nocookie.net/play-rust/images/8/8c/Leather_Pants_%28Legacy%29_icon.png/revision/latest/top-crop/width/360/height/360?cb=20150406150749"
     },
     {
-        "title":"Leather shoes",
-        "protection" : 2,
-        "weight": 1,
-        "img" : ""
+      "title": "Leather shoes",
+      "protection": 2,
+      "weight": 1,
+      "img": "https://i.pinimg.com/236x/1b/25/06/1b25066232be14ae1aa3d4ba6b8e5f84--male-vampire-skyrim-cosplay.jpg"
     },
     {
-        "title":"Light helmet",
-        "protection" : 8,
-        "weight": 4,
-        "img" : ""
+      "title": "Light helmet",
+      "protection": 8,
+      "weight": 4,
+      "img": "https://cdn3.iconfinder.com/data/icons/medieval-2d-rpg-game-items-weapons-armour-helmets-/26/GAME-SVG_--05-512.png"
     },
     {
-        "title":"Light chestplate",
-        "protection" : 12,
-        "weight": 6,
-        "img" : ""
+      "title": "Light chestplate",
+      "protection": 12,
+      "weight": 6,
+      "img": "https://static.wikia.nocookie.net/play-rust/images/9/9d/Metal_Chest_Plate_icon.png/revision/latest/top-crop/width/360/height/360?cb=20151106061201"
     },
     {
-        "title":"Light leggings",
-        "protection" : 8,
-        "weight": 4,
-        "img" : ""
+      "title": "Light leggings",
+      "protection": 8,
+      "weight": 4,
+      "img": "https://static.wikia.nocookie.net/darksouls/images/c/c6/Undead_Legion_Leggings.png/revision/latest?cb=20160614220840"
     },
     {
-        "title":"Light shoes",
-        "protection" : 4,
-        "weight": 2,
-        "img" : ""
+      "title": "Light shoes",
+      "protection": 4,
+      "weight": 2,
+      "img": "https://static.turbosquid.com/Preview/2014/05/20__22_46_58/001.jpgf4b5f41d-1840-4b36-8f33-2942a4180f79Large.jpg"
     },
     {
-        "title":"Heavy helmet",
-        "protection" : 12,
-        "weight": 6,
-        "img" : ""
+      "title": "Heavy helmet",
+      "protection": 12,
+      "weight": 6,
+      "img": "https://image.flaticon.com/icons/png/512/112/112255.png"
     },
     {
-        "title":"Heavy chestplate",
-        "protection" : 16,
-        "weight": 8,
-        "img" : ""
+      "title": "Heavy chestplate",
+      "protection": 16,
+      "weight": 8,
+      "img": "https://cdn3.iconfinder.com/data/icons/medieval-2d-rpg-game-items-weapons-armour-helmets-/26/GAME-SVG_4-80-512.png"
     },
     {
-        "title":"Heavy leggings",
-        "protection" : 12,
-        "weight": 6,
-        "img" : ""
+      "title": "Heavy leggings",
+      "protection": 12,
+      "weight": 6,
+      "img": "https://www.tosbase.com/content/img/icons/items/icon_item_pants_insect.png"
     },
     {
-        "title":"Heavy shoes",
-        "protection" : 8,
-        "weight": 4,
-        "img" : ""
+      "title": "Heavy shoes",
+      "protection": 8,
+      "weight": 4,
+      "img": "https://static.turbosquid.com/Preview/001153/142/9P/medieval-armor-boots-3D_0.jpg"
     }
   ]
 }

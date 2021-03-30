@@ -748,3 +748,23 @@ section {
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 }
+
+
+.user-profile-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.team .team-member {
+    display: block;
+    margin-bottom: 10px;
+    float: left;
+    position: relative;
+}
+
+.team .team-member img {
+    width: 40px;
+    float: left;
+    border-radius: 50%;
+    margin: 0 5px 0 5px;
+}
