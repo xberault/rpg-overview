@@ -8,7 +8,7 @@ export class Character extends HTMLHandler {
         this.nickname = nickname;
         this.classe = classe;
         this.description = description;
-        this.inventory = inventory;
+        //this.inventory = inventory;
         this.hp = hp;
         this.ap = ap;
         this.shield = shield;
@@ -61,5 +61,24 @@ export class Character extends HTMLHandler {
             new Character(p.name, p.nickname, p.class, p.description, p.inventory, p.hp, p.ap, p.shield, p.weight, p.img).addHtml();
         $("#left").append("</ul>")
 
+    }
+
+    toDict(){
+        return {"name":this.name, "nickname": this.nickname, "classe": this.classe, "description":this.description, "hp": this.hp, "ap": this.ap, "shield": this.shield, "weight": this.weight, "img":this.img}
+    }
+
+    save(){
+        //$.post("http://localhost:3000/players",this)
+        $.ajax({
+            url: "http://localhost:3000/players",
+            type: "POST",
+            dataType: "json",
+            data: this
+        })
+    }
+
+    edit(){
+        // Soit get du character existant suppresion puis save du nouveau
+        // Soit put des edits (a première vue faut un id dans l'objet)
     }
 }
