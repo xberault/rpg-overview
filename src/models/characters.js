@@ -9,10 +9,6 @@ export class Character extends HTMLHandler {
         this.nickname = nickname;
         this.classe = classe;
         this.description = description;
-<<<<<<< HEAD
-        //this.inventory = inventory;
-=======
->>>>>>> 7df75cd06ef6f41cdd7556f1adee6b8c9d3ab035
         this.hp = hp;
         this.ap = ap;
         this.shield = shield;
