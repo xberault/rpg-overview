@@ -21,6 +21,7 @@ export class Character extends HTMLHandler {
         HTMLHandler.leftNav("characters.html");
         HTMLHandler.setTitle("Characters");
         Character.getAllCharacters()
+        HTMLHandler.setRight("<h2>Select your player</h2>")
     }
 
 
