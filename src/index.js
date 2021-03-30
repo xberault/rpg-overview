@@ -1,5 +1,5 @@
 import {Character} from "./models/characters.js";
-import {CharacterSheet} from "./models/characterSheet";
+import {EditCharacter} from "./models/editcharacter.js";
 
 import {HTMLHandler} from "./models/htmlhandler.js";
 import {Classes} from "./models/classes.js";
@@ -33,7 +33,7 @@ function SPARouter_hash(page) {
             Classes.goTo();
             break;
         case "#addnew":
-            CharacterSheet.goTo()
+            EditCharacter.goTo()
             break;
         default:
             HTMLHandler.nav('404.html');

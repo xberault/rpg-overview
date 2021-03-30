@@ -46,7 +46,11 @@ export class HTMLHandler {
     static setTitle(title) {
         $("#main_title").text(title);
         $(".active").removeClass("active")
-        $("#nav-" + title).addClass("active")
+        if(title=="Add/Edit a character"){
+            $("#nav-" + "editCharacter").addClass("active")
+        }
+        else
+            $("#nav-" + title).addClass("active")
     }
 
     static loadPage(path) {
