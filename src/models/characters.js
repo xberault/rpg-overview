@@ -45,8 +45,6 @@ export class Character extends HTMLHandler {
         $("#bt-" + this.title).click(function () {
             Classes.display(that)
         })
-
-        $("#left").append("<h2>" + this.name + "</h2>")
     }
 
 

@@ -441,7 +441,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-    padding: 60px 0;
+    padding: 15px 0;
     overflow: hidden;
 }
 
@@ -573,7 +573,7 @@ section {
 }
 
 #footer {
-    padding: 50px 0;
+    padding: 20px 0;
     background: #eff2f8;
     text-align: center;
     font-size: 15px;
@@ -722,6 +722,7 @@ section {
     text-align: center;
     float: left;
     color: #47536e;
+
 }
 
 #footer {
@@ -738,7 +739,7 @@ section {
     }
 }
 #class-container,  #character-container{
-    max-height: 80vh;
+    max-height: 60vh;
     overflow:scroll;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
