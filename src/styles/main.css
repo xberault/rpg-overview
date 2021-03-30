@@ -720,7 +720,6 @@ section {
 
 #footer .copyright {
     text-align: center;
-    float: left;
     color: #47536e;
 
 }
@@ -729,6 +728,10 @@ section {
     font-size: 13px;
     color: #47536e;
     width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -738,9 +741,10 @@ section {
         padding: 5px 0;
     }
 }
-#class-container,  #character-container{
+
+#class-container, #character-container {
     max-height: 60vh;
-    overflow:scroll;
+    overflow: scroll;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 }
