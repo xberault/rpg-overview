@@ -92,7 +92,7 @@
       "img": "https://image.freepik.com/vecteurs-libre/piece-monnaie_53876-25510.jpg"
     }
   ],
-  "leaher": [
+  "armors": [
     {
         "title":"Leather helmet",
         "protection" : 4,
@@ -116,9 +116,7 @@
         "protection" : 2,
         "weight": 1,
         "img" : ""
-    }
-],
-"light armor": [
+    },
     {
         "title":"Light helmet",
         "protection" : 8,
@@ -142,9 +140,7 @@
         "protection" : 4,
         "weight": 2,
         "img" : ""
-    }
-],
-"heavy armor": [
+    },
     {
         "title":"Heavy helmet",
         "protection" : 12,
@@ -169,5 +165,5 @@
         "weight": 4,
         "img" : ""
     }
-]
+  ]
 }
