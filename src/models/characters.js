@@ -95,13 +95,16 @@ export class Character extends HTMLHandler {
         }
         res += "</div>"
 
+        res +="</br></br>"
+        res +="</br></br>"
+
         res += `<div> <h3> Items </h3> `
         for (let item of this.inventory.items) {
             res += `<div class="team-member">
                 <img src="${item.img}" alt="" />
                 </div>`
         }
-        res += "</div>"
+        res += "</div></div>"
 
         return res + "</div> </div> </div>"
 
