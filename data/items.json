@@ -91,5 +91,79 @@
       "weight": 0,
       "img": "https://image.freepik.com/vecteurs-libre/piece-monnaie_53876-25510.jpg"
     }
+  ],
+  "armors": [
+    {
+      "title": "Leather helmet",
+      "protection": 4,
+      "weight": 2,
+      "img": "https://cdn3.iconfinder.com/data/icons/medieval-2d-rpg-game-items-weapons-armour-helmets-/26/GAME-SVG_--03-512.png"
+    },
+    {
+      "title": "Leather chestplate",
+      "protection": 6,
+      "weight": 3,
+      "img": "https://cdn3.iconfinder.com/data/icons/medieval-2d-rpg-game-items-weapons-armour-helmets-/26/GAME-SVG_--56-512.png"
+    },
+    {
+      "title": "Leather leggings",
+      "protection": 4,
+      "weight": 2,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2GcdJvVlTnSQcYEiWaRcxAjgSj5azgTr-FGCpbkkjJ71YMHWZz2GJLYC_nSPy6PBMRYQ&usqp=CAU"
+    },
+    {
+      "title": "Leather shoes",
+      "protection": 2,
+      "weight": 1,
+      "img": "https://i.pinimg.com/236x/1b/25/06/1b25066232be14ae1aa3d4ba6b8e5f84--male-vampire-skyrim-cosplay.jpg"
+    },
+    {
+      "title": "Light helmet",
+      "protection": 8,
+      "weight": 4,
+      "img": "https://cdn3.iconfinder.com/data/icons/medieval-2d-rpg-game-items-weapons-armour-helmets-/26/GAME-SVG_--05-512.png"
+    },
+    {
+      "title": "Light chestplate",
+      "protection": 12,
+      "weight": 6,
+      "img": "https://i.pinimg.com/originals/e4/32/f8/e432f85c57cd2f3262e37b98bcbb95a8.png"
+    },
+    {
+      "title": "Light leggings",
+      "protection": 8,
+      "weight": 4,
+      "img": "https://images.squarespace-cdn.com/content/v1/5420d068e4b09194f76b2af6/1467757526545-I1BV2Q8RI80KOQN8782D/ke17ZwdGBToddI8pDm48kGfiFqkITS6axXxhYYUCnlRZw-zPPgdn4jUwVcJE1ZvWxYb2krSYGNt8NUBfJA7VeEJFbgE-7XRK3dMEBRBhUpzCsfVyP5kL-mHAqVji2VqdQvU9xEpXD7i6pZFP0jKGH2wnV-EfjMwPBGu0rFN1DGc/image-asset.png"
+    },
+    {
+      "title": "Light shoes",
+      "protection": 4,
+      "weight": 2,
+      "img": "https://static.turbosquid.com/Preview/2014/05/20__22_46_58/001.jpgf4b5f41d-1840-4b36-8f33-2942a4180f79Large.jpg"
+    },
+    {
+      "title": "Heavy helmet",
+      "protection": 12,
+      "weight": 6,
+      "img": "https://image.flaticon.com/icons/png/512/112/112255.png"
+    },
+    {
+      "title": "Heavy chestplate",
+      "protection": 16,
+      "weight": 8,
+      "img": "https://cdn1.iconfinder.com/data/icons/arms-and-armor/100/25-512.png"
+    },
+    {
+      "title": "Heavy leggings",
+      "protection": 12,
+      "weight": 6,
+      "img": "https://www.tosbase.com/content/img/icons/items/icon_item_pants_insect.png"
+    },
+    {
+      "title": "Heavy shoes",
+      "protection": 8,
+      "weight": 4,
+      "img": "https://static.turbosquid.com/Preview/001153/142/9P/medieval-armor-boots-3D_0.jpg"
+    }
   ]
 }
