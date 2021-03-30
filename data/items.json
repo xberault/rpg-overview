@@ -91,5 +91,83 @@
       "weight": 0,
       "img": "https://image.freepik.com/vecteurs-libre/piece-monnaie_53876-25510.jpg"
     }
-  ]
+  ],
+  "leaher": [
+    {
+        "title":"Leather helmet",
+        "protection" : 4,
+        "weight": 2,
+        "img" : ""
+    },
+    {
+        "title":"Leather chestplate",
+        "protection" : 6,
+        "weight": 3,
+        "img" : ""
+    },
+    {
+        "title":"Leather leggings",
+        "protection" : 4,
+        "weight": 2,
+        "img" : ""
+    },
+    {
+        "title":"Leather shoes",
+        "protection" : 2,
+        "weight": 1,
+        "img" : ""
+    }
+],
+"light armor": [
+    {
+        "title":"Light helmet",
+        "protection" : 8,
+        "weight": 4,
+        "img" : ""
+    },
+    {
+        "title":"Light chestplate",
+        "protection" : 12,
+        "weight": 6,
+        "img" : ""
+    },
+    {
+        "title":"Light leggings",
+        "protection" : 8,
+        "weight": 4,
+        "img" : ""
+    },
+    {
+        "title":"Light shoes",
+        "protection" : 4,
+        "weight": 2,
+        "img" : ""
+    }
+],
+"heavy armor": [
+    {
+        "title":"Heavy helmet",
+        "protection" : 12,
+        "weight": 6,
+        "img" : ""
+    },
+    {
+        "title":"Heavy chestplate",
+        "protection" : 16,
+        "weight": 8,
+        "img" : ""
+    },
+    {
+        "title":"Heavy leggings",
+        "protection" : 12,
+        "weight": 6,
+        "img" : ""
+    },
+    {
+        "title":"Heavy shoes",
+        "protection" : 8,
+        "weight": 4,
+        "img" : ""
+    }
+]
 }
