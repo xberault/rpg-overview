@@ -1,3 +1,4 @@
+import { EditCharacter } from "./editcharacter";
 import {HTMLHandler} from "./htmlhandler";
 
 export class Classes extends HTMLHandler {
@@ -12,8 +13,8 @@ export class Classes extends HTMLHandler {
 
     }
 
-    static getAllClasses() {
-        let baseHtml = HTMLHandler.loadPage("classes.html")
+    static getAllClasses(page) {
+        let baseHtml = HTMLHandler.loadPage(page)
         console.log(baseHtml)
         $.ajax({
             url: "http://localhost:3000/classes",
@@ -27,7 +28,7 @@ export class Classes extends HTMLHandler {
                     console.log("base html:")
                     console.log(baseHtml)
                     maClass = new Classes(classes[i].title, classes[i].description, classes[i].hp, classes[i].ap, classes[i].img)
-                    maClass.addHtml(baseHtml);
+                    maClass.addHtml(baseHtml, page);
                 }
                 $("#left").append("</ul>");
             },
@@ -39,7 +40,7 @@ export class Classes extends HTMLHandler {
 
     }
 
-    addHtml(baseHtml) {
+    addHtml(baseHtml, page) {
         let that = this;
         let res = '<button id="bt-' + this.title + '" class="button">' +
             '<li id="class-' + this.title + '" class="card" style="width: 10rem; display: inline-block">\n' +
@@ -52,10 +53,14 @@ export class Classes extends HTMLHandler {
         '        </button>\n' +
 
         $("#class-container").append(res)
-        $("#bt-" + this.title).click(function () {
-            Classes.display(that)
-        })
-
+        if(page=="classes.html")
+            $("#bt-" + this.title).click(function () {
+                Classes.display(that)
+            })
+        else if(page=="editCharacter.html")
+            $("#bt-" + this.title).click(function () {
+                EditCharacter.chooseClass(that)
+            })
     }
 
     getDetails() {
@@ -69,7 +74,7 @@ export class Classes extends HTMLHandler {
     }
 
     static goTo() {
-        Classes.getAllClasses();
+        Classes.getAllClasses("classes.html");
         HTMLHandler.leftNav("classes.html");
         HTMLHandler.setRight("<h2> Select your class </h2>")
         HTMLHandler.setTitle("Classes");
