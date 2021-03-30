@@ -1,115 +1,115 @@
 {
-    "player": [
+  "player": [
+    {
+      "name": "Xavier",
+      "nickname": "Ranblok",
+      "class": "Kinght",
+      "description": "A knight in shining armor, an individual devoted to law and good.",
+      "inventory": [
         {
-            "name":"Xavier",
-            "nickName":"Ranblok",
-            "class" : "Kinght",
-            "description": "A knight in shining armor, an individual devoted to law and good.",
-            "inventory": [
-                {
-                    "item" : "Gold",
-                    "nb" : 1
-                },
-                {
-                    "item" : "Silver",
-                    "nb" : 10
-                },
-                {
-                    "item" : "Copper",
-                    "nb" : 50
-                },
-                {
-                    "item" : "Long sword",
-                    "nb" : 1
-                },
-                {
-                    "item" : "Large shield",
-                    "nb" : 1
-                }
-            ],
-            "hp" : 0,
-            "ap" : 0,
-            "shield":0,
-            "weight": 40,
-            "img" : ""
+          "item": "Gold",
+          "nb": 1
         },
         {
-            "name":"Rémi",
-            "nickName":"Amki",
-            "class" : "Shaman",
-            "description": "A knight in shining armor, an individual devoted to law and good.",
-            "inventory": [
-                {
-                    "item" : "Gold",
-                    "nb" : 1
-                },
-                {
-                    "item" : "Silver",
-                    "nb" : 10
-                },
-                {
-                    "item" : "Copper",
-                    "nb" : 50
-                },
-                {
-                    "item" : "Dagger",
-                    "nb" : 2
-                },
-                {
-                    "item" : "Heal potion",
-                    "nb" : 2
-                },
-                {
-                    "item" : "Shield potion",
-                    "nb" : 2
-                },
-                {
-                    "item" : "Strength potion",
-                    "nb" : 2
-                },
-                {
-                    "item" : "Instant Dommage potion",
-                    "nb" : 2
-                }
-            ],
-            "hp" : 0,
-            "ap" : 0,
-            "shield":0,
-            "weight": 25,
-            "img" : ""
+          "item": "Silver",
+          "nb": 10
         },
         {
-            "name":"Thomas",
-            "nickName":"Ixi",
-            "class" : "Barbarian",
-            "description": "A knight in shining armor, an individual devoted to law and good.",
-            "inventory": [
-                {
-                    "item" : "Gold",
-                    "nb" : 1
-                },
-                {
-                    "item" : "Silver",
-                    "nb" : 10
-                },
-                {
-                    "item" : "Copper",
-                    "nb" : 50
-                },
-                {
-                    "item" : "Short sword",
-                    "nb" : 2
-                },
-                {
-                    "item" : "Small shield",
-                    "nb" : 1
-                }
-            ],
-            "hp" : 0,
-            "ap" : 0,
-            "shield":0,
-            "weight": 0,
-            "img" : ""
+          "item": "Copper",
+          "nb": 50
+        },
+        {
+          "item": "Long sword",
+          "nb": 1
+        },
+        {
+          "item": "Large shield",
+          "nb": 1
         }
-    ]
+      ],
+      "hp": 0,
+      "ap": 0,
+      "shield": 0,
+      "weight": 40,
+      "img": "https://i.pinimg.com/originals/99/3b/60/993b6076050e93634582c8e6b999cff9.png"
+    },
+    {
+      "name": "Rémi",
+      "nickname": "Amki",
+      "class": "Shaman",
+      "description": "A knight in shining armor, an individual devoted to law and good.",
+      "inventory": [
+        {
+          "item": "Gold",
+          "nb": 1
+        },
+        {
+          "item": "Silver",
+          "nb": 10
+        },
+        {
+          "item": "Copper",
+          "nb": 50
+        },
+        {
+          "item": "Dagger",
+          "nb": 2
+        },
+        {
+          "item": "Heal potion",
+          "nb": 2
+        },
+        {
+          "item": "Shield potion",
+          "nb": 2
+        },
+        {
+          "item": "Strength potion",
+          "nb": 2
+        },
+        {
+          "item": "Instant Dommage potion",
+          "nb": 2
+        }
+      ],
+      "hp": 0,
+      "ap": 0,
+      "shield": 0,
+      "weight": 25,
+      "img": "https://thumbs.dreamstime.com/b/illustration-d-ic%C3%B4nes-de-monstres-et-h%C3%A9ros-caract%C3%A8re-jeu-l-imagination-rpg-barbare-mauvais-lutin-npc-guerrier-avec-la-lance-130679935.jpg"
+    },
+    {
+      "name": "Thomas",
+      "nickname": "Ixi",
+      "class": "Barbarian",
+      "description": "A knight in shining armor, an individual devoted to law and good.",
+      "inventory": [
+        {
+          "item": "Gold",
+          "nb": 1
+        },
+        {
+          "item": "Silver",
+          "nb": 10
+        },
+        {
+          "item": "Copper",
+          "nb": 50
+        },
+        {
+          "item": "Short sword",
+          "nb": 2
+        },
+        {
+          "item": "Small shield",
+          "nb": 1
+        }
+      ],
+      "hp": 0,
+      "ap": 0,
+      "shield": 0,
+      "weight": 0,
+      "img": "https://cdna.artstation.com/p/assets/images/images/008/868/748/large/brandon-darrah-drago.jpg?1515782254"
+    }
+  ]
 }
