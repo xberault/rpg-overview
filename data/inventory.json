@@ -1,0 +1,94 @@
+{
+    "inv": [
+          {
+            "player" : "Xavier",
+            "item": "Gold",
+            "nb": 1
+          },
+          {
+            "player" : "Xavier",
+            "item": "Silver",
+            "nb": 10
+          },
+          {
+            "player" : "Xavier",
+            "item": "Copper",
+            "nb": 50
+          },
+          {
+            "player" : "Xavier",
+            "item": "Long sword",
+            "nb": 1
+          },
+          {
+            "player" : "Xavier",
+            "item": "Large shield",
+            "nb": 1
+          },
+          {
+            "player" : "Rémi",
+            "item": "Gold",
+            "nb": 1
+          },
+          {
+            "player" : "Rémi",
+            "item": "Silver",
+            "nb": 10
+          },
+          {
+            "player" : "Rémi",
+            "item": "Copper",
+            "nb": 50
+          },
+          {
+            "player" : "Rémi",
+            "item": "Dagger",
+            "nb": 2
+          },
+          {
+            "player" : "Rémi",
+            "item": "Heal potion",
+            "nb": 2
+          },
+          {
+            "player" : "Rémi",
+            "item": "Shield potion",
+            "nb": 2
+          },
+          {
+            "player" : "Rémi",
+            "item": "Strength potion",
+            "nb": 2
+          },
+          {
+            "player" : "Rémi",
+            "item": "Instant Dommage potion",
+            "nb": 2
+          },
+          {
+            "player" : "Thomas",
+            "item": "Gold",
+            "nb": 1
+          },
+          {
+            "player" : "Thomas",
+            "item": "Silver",
+            "nb": 10
+          },
+          {
+            "player" : "Thomas",
+            "item": "Copper",
+            "nb": 50
+          },
+          {
+            "player" : "Thomas",
+            "item": "Short sword",
+            "nb": 2
+          },
+          {
+            "player" : "Thomas",
+            "item": "Small shield",
+            "nb": 1
+          }
+    ]
+}
