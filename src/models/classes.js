@@ -59,12 +59,18 @@ export class Classes extends HTMLHandler {
     }
 
     getDetails() {
-        return '<li id="class-' + this.title + '" class="card" style="width: 80rem; display: inline-block; text-align:center; ">\n' +
+        return '<li id="class-' + this.title + '" class="card" style="width: 80rem; display: inline-block; text-align:center;   ">\n' +
             '    <img class="card-img-top" style="width: 20rem;" src=\"' + this.img + '\" alt="Class image of ' + this.title + ' + ">\n' +
+            '<div style="display: inline-flex; align-items: center">' +
+            ` <img style="width: 4rem;" src="https://cdn1.iconfinder.com/data/icons/steaming-gaming-1/80/HP-rpg-HitPoint-HealthPoint-flask-512.png"> ` +
+            `<p> ${this.hp} </p>` +
+            '<img style="width: 4rem" src="https://cdn1.iconfinder.com/data/icons/steaming-gaming-1/80/mana-mp-potion-512.png">' +
+            `<p>${this.ap}</p>` +
+            '  </div>' +
             '    <div class="card-body  w-100">\n' +
             '        <h5 class="card-title"> <b>' + this.title + '</b> </h5>\n' +
-            '        <p class="card-text">' + this.description + '</p>\n' +// on le mettra à droite quand on clique
-            '    </div>\n' +
+            '        <p class="card-text">' + this.description + '</p>\n' +
+            '</div>\n' +
             '</li>'
     }
 
