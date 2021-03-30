@@ -24,6 +24,10 @@ export class HTMLHandler {
         console.log("set left nav called")
         $('#left').html(html);
     }
+    static setRight(html) {
+        console.log("set right nav called")
+        $('#right').html(html);
+    }
 
     static rightNav(to) {
         console.log("right nav to: " + to)

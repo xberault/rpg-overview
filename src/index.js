@@ -16,6 +16,7 @@ $(window).on('load hashchange', function (e) {
 
 
 function SPARouter_hash(page) {
+    HTMLHandler.setRight(''); // clear right bar
     switch (page) {
         case '':
         case '#':
