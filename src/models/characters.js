@@ -86,7 +86,7 @@ export class Character extends HTMLHandler {
             url: "http://localhost:3000/players",
             type: "POST",
             dataType: "json",
-            data: this
+            data: {"name":this.name, "nickname":this.nickname, "class":this.classe, "description":this.description, "hp":this.hp, "ap": this.ap, "shield": this.shield, "weight": this.weight, "img":this.img}
         })
     }
 
