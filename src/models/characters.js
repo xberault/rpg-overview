@@ -109,7 +109,7 @@ export class Character extends HTMLHandler {
         console.log(this.inventory.armor)
         for (let item of this.inventory.armor) {
             res += `<div class="team-member">
-                <img src="${item.img}" alt="" />
+                <img  data-toggle="tooltip"  title="${item.title}" data-placement="bottom" src="${item.img}" alt="" />
                 </div>`
         }
         res += "</div>"
@@ -120,7 +120,7 @@ export class Character extends HTMLHandler {
         res += `<div> <h3> Items </h3> `
         for (let item of this.inventory.items) {
             res += `<div class="team-member">
-                <img src="${item.img}" alt="" />
+                <img  data-toggle="tooltip" data-placement="bottom" title="${item.title}" src="${item.img}" alt="" />
                 </div>`
         }
         res += "</div></div>"

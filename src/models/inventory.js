@@ -1,12 +1,19 @@
 import {HTMLHandler} from "./htmlhandler";
 
+/**
+ * Inventory of player / character
+ */
 export class Inventory {
     constructor(player, items = [], armor = []) {
         this.player = player;
-        this.items = items;
-        this.armor = armor
+        this.items = items; // all items carried by characters
+        this.armor = armor; // armor equipped
     }
 
+    /**
+     * define iventory of a player
+     * @param player to set the inventory
+     */
     static setAllItem(player) {
         let tmpItems = [];
         let tmpArmor = [];
@@ -30,13 +37,10 @@ export class Inventory {
                         for (let item of items) {
                             if (typeof item === 'string')
                                 return;
-                            console.log("-" + items.title + "-")
                             if (tmpNamesItems.includes(item.title))
                                 player.inventory.items.push(item)
-                            else if (tmpNamesArmor.includes(item.title)) {
-                                console.log("armor added:")
+                            else if (tmpNamesArmor.includes(item.title))
                                 player.inventory.armor.push(item)
-                            }
                         }
 
                     })
@@ -47,6 +51,10 @@ export class Inventory {
     }
 }
 
+/**
+ * @param {Object} item
+ * @returns {String} return item name
+ */
 function itemToPlayer(item) {
     return item.item
 }

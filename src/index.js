@@ -9,15 +9,18 @@ import './styles/main.css';
 $(window).on('load hashchange', function (e) {
     console.log("connected")
     try {
-        SPARouter_hash(window.location.hash);
+        router_hash(window.location.hash);
     } catch (err) {
         console.error(err)
 
     }
 });
 
-
-function SPARouter_hash(page) {
+/**
+ * navigate to the hash passed on parameter
+ * @param page page location hash
+ */
+function router_hash(page) {
     HTMLHandler.setRight(''); // clear right bar
     switch (page) {
         case '':

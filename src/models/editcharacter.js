@@ -1,9 +1,9 @@
-import { Classes } from "./classes";
-import { Character } from "./characters";
-import { HTMLHandler } from "./htmlhandler"
+import {Classes} from "./classes";
+import {Character} from "./characters";
+import {HTMLHandler} from "./htmlhandler"
 
-export class EditCharacter extends HTMLHandler{
-    
+export class EditCharacter extends HTMLHandler {
+
     static goTo() {
         Classes.getAllClasses("editCharacter.html")
         HTMLHandler.leftNav("editCharacter.html");
@@ -12,16 +12,16 @@ export class EditCharacter extends HTMLHandler{
     }
 
     // When a user has choosen a class
-    static chooseClass(classe){
+    static chooseClass(classe) {
         // Treatement
         HTMLHandler.setRight(EditCharacter.createForm(classe))
-        $('#img').bind('input', function() {
+        $('#img').bind('input', function () {
             $('#preview').attr('src', $(this).val());
             console.log("Bilbo")
         });
         $("#bt-validate").click(function () {
             // Verify if fields are filled
-            if(EditCharacter.checkFields()) {
+            if (EditCharacter.checkFields()) {
                 let character = new Character(
                     $("#rname").val(),
                     $("#nname").val(),
@@ -42,9 +42,9 @@ export class EditCharacter extends HTMLHandler{
         //HTMLHandler.rightNav(createForm())
     }
 
-    static createForm(classe){
+    static createForm(classe) {
         // Creation de tout les forms à remplir pour un Character
-        let res = '<h2>You chose to play as <b>'+classe.title+'</b>' +
+        let res = '<h2>You chose to play as <b>' + classe.title + '</b>' +
             '<img style="width: 80px;margin: 20px" src="' + classe.img + '" alt="Class image of ' + classe.title + '">\n' + '</h2>\n' +
             '<div class="container"><div class="row input-group" style="margin:10px">' +
             '<input class="form-control col" type="text" id="rname" placeholder="Real Name*">\n' +
@@ -58,79 +58,78 @@ export class EditCharacter extends HTMLHandler{
             '<img id="preview" style="width: 80px;height: 80px;margin: 20px" src="" alt="Image preview" onerror=\'this.src="https://png.pngtree.com/element_our/20190604/ourmid/pngtree-office-preview-file-illustration-image_1468631.jpg"\'></div>\n' +
             '<button id="bt-validate" class="btn btn-primary">Validate</button>\n' + '</div>' +
             '<div id="flash" style="margin :20px"></div>'
-        
+
 
         // Creation du bouton de validation et appel de validate() au clic + creation du Character
         return res
-        
-        
+
+
     }
 
-    static checkFields(){
+    static checkFields() {
         // Check si tout les fields sont bien remplis
         let error = false
         let flash = ""
         // Cause error
-        if(!$("#rname").val()){
-            flash+="<b>Real name</b>"
+        if (!$("#rname").val()) {
+            flash += "<b>Real name</b>"
             error = true
         }
-        if(!$("#nname").val()){
-            if(error)
-                flash+=", "
-            flash+="<b>Character's name</b>"
+        if (!$("#nname").val()) {
+            if (error)
+                flash += ", "
+            flash += "<b>Character's name</b>"
             error = true
         }
-        if(!$("#hp").val()){
-            if(error)
-                flash+=", "
-            flash+="<b>Total health</b>"
+        if (!$("#hp").val()) {
+            if (error)
+                flash += ", "
+            flash += "<b>Total health</b>"
             error = true
         }
-        if(!$("#ap").val()){
-            if(error)
-                flash+=", "
-            flash+="<b>Magic Power</b>"
+        if (!$("#ap").val()) {
+            if (error)
+                flash += ", "
+            flash += "<b>Magic Power</b>"
             error = true
         }
-        if(!$("#shield").val()){
-            if(error)
-                flash+=", "
-            flash+="<b>Armor points</b>"
+        if (!$("#shield").val()) {
+            if (error)
+                flash += ", "
+            flash += "<b>Armor points</b>"
             error = true
         }
-        if(!$("#weight").val()){
-            if(error)
-                flash+=", "
-            flash+="<b>Maximum weight</b>"
+        if (!$("#weight").val()) {
+            if (error)
+                flash += ", "
+            flash += "<b>Maximum weight</b>"
             error = true
         }
 
-        if(error){
+        if (error) {
             $("#flash").addClass("alert alert-danger")
             $("#flash").html(flash + " missing (* means required)")
         }
         return !error
     }
 
-    static isNew(character){
+    static isNew(character) {
         return true
     }
 
-    static validate(character){
+    static validate(character) {
         // Si !isNew retrait de l'ancien perso
         // Ajout du personnage dans la bd
-        if(!character.img)
+        if (!character.img)
             character.img = "https://img.icons8.com/windows/452/person-male.png"
-        if(EditCharacter.isNew(character)){
+        if (EditCharacter.isNew(character)) {
             console.log("Saving...")
             character.save()
-        }
-        else{
+        } else {
             console.log("Editing...")
             character.edit()
         }
-        
+
         // Clear form et message de confirmation (ou alors redirection vers la page du perso)
         HTMLHandler.goTo(Character)
     }
